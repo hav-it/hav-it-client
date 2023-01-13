@@ -1,4 +1,4 @@
-# Codot Web Application
+# Hav-it web application(chrome extension)
 
 <img src="https://img.shields.io/badge/Typescript-3178C6?style=flat-square&logo=Typescript&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/></a>
