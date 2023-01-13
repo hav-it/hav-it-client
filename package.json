@@ -10,14 +10,7 @@
     "ts-node": "ts-node -r tsconfig-paths/register ./src/index.ts",
     "prepare": "husky install",
     "lint": "eslint './src/**/*.{ts,tsx,js,jsx}'",
-    "prettier": "prettier --write --config ./.prettierrc '**/*.{ts,tsx}'",
-    "lint-staged": "lint-staged"
-  },
-  "lint-staged": {
-    "**/*.{tsx,ts,jsx,js}": [
-      "eslint --fix",
-      "prettier --write"
-    ]
+    "prettier": "prettier --write --config ./.prettierrc '**/*.{ts,tsx}'"
   },
   "dependencies": {
     "axios": "^1.2.2",
