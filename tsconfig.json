@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    /* 기본 옵션 */
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": true,
+    "jsx": "preserve",
+    "noEmit": true,
+    "isolatedModules": true,
+    /* 엄격한 유형 검사 옵션 */
+    "strict": true,
+    /* 모듈 분석 옵션 */
+    "moduleResolution": "Node",
+    "baseUrl": "./",
+    "paths": {
+      "@src/*": ["src/*"],
+      "@components/*": ["src/components/*"],
+      "@common-components": ["src/components/common/index.ts"],
+      "@styles/*": ["src/styles/*"],
+      "@public/*": ["public/*"],
+      "@pages/*": ["src/pages/*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    /* 고급 옵션 */
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/*"],
+  "exclude": ["node_modules"],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  }
+}
