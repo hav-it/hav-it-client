@@ -7,7 +7,6 @@
   "tabWidth": 4,
   "printWidth": 100,
   "endOfLine": "lf",
-  "jsxBracketSameLine": false,
   "jsxSingleQuote": false,
   "proseWrap": "preserve",
   "quoteProps": "as-needed",

@@ -14,12 +14,20 @@
     "moduleResolution": "Node",
     "baseUrl": "./",
     "paths": {
-      "@src/*": ["src/*"],
-      "@components/*": ["src/components/*"],
-      "@common-components": ["src/components/common/index.ts"],
-      "@styles/*": ["src/styles/*"],
       "@public/*": ["public/*"],
-      "@pages/*": ["src/pages/*"]
+      "@src/*": ["src/*"],
+      "@apis": ["src/apis/*"],
+      "@assets": ["src/assets/*"],
+      "@components/*": ["src/components/*"],
+      "@configs/*": ["src/configs/*"],
+      "@constants/*": ["src/constants/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@pages/*": ["src/pages/*"],
+      "@queries/*": ["src/queries/*"],
+      "@store/*": ["src/store/*"],
+      "@styles/*": ["src/styles/*"],
+      "@types/*": ["src/types/*"],
+      "@utils/*": ["src/utils/*"],
     },
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
@@ -28,7 +36,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src/*"],
+  "include": ["src/*", "./eslintrc.json", "vite.config.ts", "src/vite-env.d.ts"],
   "exclude": ["node_modules"],
   "ts-node": {
     "require": ["tsconfig-paths/register"]
