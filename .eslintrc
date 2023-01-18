@@ -11,9 +11,11 @@
     "prefer-const": "error",
     "@typescript-eslint/no-unused-vars": "error",
     "@typescript-eslint/no-explicit-any": "warn",
-    "no-console": "warn"
+    "no-console": "warn",
+    "import/no-extraneous-dependencies": 0 
   },
   "parserOptions": {
-    "project": ["./tsconfig.json"] // Specify it only for TypeScript files
+    "project": ["./tsconfig.json"], // Specify it only for TypeScript files
+    "createDefaultProgram": true
   }
 }

@@ -28,7 +28,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src/*"],
+  "include": ["src/*", "./src/types"],
   "exclude": ["node_modules"],
   "ts-node": {
     "require": ["tsconfig-paths/register"]
